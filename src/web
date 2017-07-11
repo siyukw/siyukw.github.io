@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Siyu Katherine Wang</title>
+    <link rel="stylesheet" type="text/css" href="class"/>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>Siyu Katherine Wang</h1>
+    </div>
+
+
+    <div id="content">
+        <div id="nav">
+            <a href="movie2.html"><button class="selected">Home</button></a>
+            <a href="movie3.html"><button class="selected">About</button></a>
+            <a href="movie4.html"><button class="selected">Projects</button></a>
+            <a href="movie2.html"><button class="selected">Thoughts</button></a>
+            <a href="movie3.html"><button class="selected">Photos</button></a>
+            <a href="movie4.html"><button class="selected">Links</button></a>
+        </div>
+
+        <div id="main">
+            <h2>Home Page</h2>
+            <p></p>
+
+            <img src="seeSea.jpg" width="500px">
+        </div>
+
+
+    </div>
+
+
+    <div id="footer">
+        Copyright &copy; 2017 Siyu Katherine Wang.
+
+    </div>
+</div>
+</body>
+
+</html>
