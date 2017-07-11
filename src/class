@@ -1,5 +1,5 @@
 body {
-  background-image: url("bg2.jpg");
+  background-image: url("image/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family:Helvetica, Arial, sans-serif;
@@ -20,7 +20,7 @@ a {
 }
 
 #header {
-  background-image: url("header.jpg");
+  background-image: url("image/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: fantasy;
@@ -70,7 +70,7 @@ h1,h2,h3 {
 }
 
 button {
-  background-image: url("header.jpg");
+  background-image: url("image/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: FFFFFF;
