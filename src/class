@@ -16,7 +16,17 @@ a {
   width:1100px;
   margin-left:auto;
   margin-right:auto;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#containerPhoto {
+  background-color:FFFFFF;
+  width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+  float: center;
 }
 
 #header {
@@ -54,10 +64,16 @@ a {
   width:980px;
   font-size: 20px;
   font-family: fantasy;
-  text-align: left;
+  text-align: center;
   float: top;
   margin-left:auto;
   margin-right:auto;
+}
+
+#body h3 {
+  background-color: d9d9d9;
+  opacity: 0.8;
+  font_variant: small-caps;
 }
 
 #poem {
@@ -84,6 +100,7 @@ a {
 h1,h2,h3 {
   margin:0;
 }
+
 #icons {
   width: 35px;
   height: 35px;
