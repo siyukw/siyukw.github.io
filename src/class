@@ -25,8 +25,7 @@ a {
   margin-left:auto;
   margin-right:auto;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  text-align: center;
-  float: center;
+
 }
 
 #header {
@@ -34,12 +33,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: fantasy;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 900;
   font-stretch: expanded;
   color:white;
   text-align:center;
-  padding:15px;
+  padding:25px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
 }
 
@@ -64,6 +63,16 @@ a {
   width:980px;
   font-size: 20px;
   font-family: fantasy;
+  text-align: left;
+  float: top;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#bodyPhoto {
+  width:980px;
+  font-size: 18px;
+  font-family: fantasy;
   text-align: center;
   float: top;
   margin-left:auto;
@@ -76,8 +85,15 @@ a {
   font_variant: small-caps;
 }
 
+#body h4 {
+  font_variant: small-caps;
+  text-align: center;
+
+}
+
 #poem {
   width: 350px;
+  text-align: left;
 }
 
 #footer {
