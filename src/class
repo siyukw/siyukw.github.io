@@ -1,5 +1,5 @@
 body {
-  background-image: url("bg2.jpg");
+  background-image: url("image/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family:Helvetica, Arial, sans-serif;
@@ -16,20 +16,29 @@ a {
   width:1100px;
   margin-left:auto;
   margin-right:auto;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#containerPhoto {
+  background-color:FFFFFF;
+  width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 #header {
-  background-image: url("header.jpg");
+  background-image: url("image/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: fantasy;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 900;
   font-stretch: expanded;
   color:white;
   text-align:center;
-  padding:15px;
+  padding:25px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
 }
 
@@ -45,7 +54,46 @@ a {
 
 #main {
   width:1100px;
-  float: none;
+  font-family: fantasy;
+  text-align: center;
+  align-items: center;
+}
+
+#body {
+  width:980px;
+  font-size: 20px;
+  font-family: fantasy;
+  text-align: left;
+  float: top;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#bodyPhoto {
+  width:980px;
+  font-size: 18px;
+  font-family: fantasy;
+  text-align: center;
+  float: top;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#body h3 {
+  background-color: d9d9d9;
+  opacity: 0.8;
+  font_variant: small-caps;
+}
+
+#body h4 {
+  font_variant: small-caps;
+  text-align: center;
+
+}
+
+#poem {
+  width: 350px;
+  text-align: left;
 }
 
 #footer {
@@ -69,8 +117,20 @@ h1,h2,h3 {
   margin:0;
 }
 
+#icons {
+  width: 35px;
+  height: 35px;
+}
+
+#links {
+  width: 155px;
+  height: 35px;
+  float: right;
+  text-align: center;
+}
+
 button {
-  background-image: url("header.jpg");
+  background-image: url("image/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: FFFFFF;
@@ -78,7 +138,7 @@ button {
   font-variant: small-caps;
   font-weight: bold;
   font-family: fantasy;
-  width: 176px;
+  width: 184px;
   height: 35px;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
