@@ -1,6 +1,7 @@
 body {
   background-image: url("image/bg2.jpg");
   background-size: cover;
+  ba
   background-repeat: no-repeat;
   font-family:Helvetica, Arial, sans-serif;
 }
@@ -8,6 +9,35 @@ body {
 a {
   text-decoration:none;
   color:3D2914;
+}
+
+#searchtext span{
+    background-color:#FF9;
+    color:#555;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 #container {
