@@ -8,8 +8,6 @@
     <div id="header">
       <h1>Siyu Katherine Wang</h1>
   </div>
-
-
   <div id = "content">
       <div id = "nav">
           <a href = "index.html"><button class="selected"> Home </button></a>
@@ -25,24 +23,72 @@
 
       </div>
 
-
-
-
       <div id = "main">
         <br>
-        <br>
-          <h2>Photos</h2>
           <br>
-          <div id = "bodyPhoto">
-          <img src = "image/facilitator.jpg" width = "650px">
-          <br>
-          <img src = "image/powerpose.jpg" width = "500px">
-          <br>
-          <img src = "image/UniteUW.jpg" width = "600px">
-          <br>
-          <img src = "image/pumpkin.jpg" width = "500px">
-          </div>
+          <div class="slideshow-container">
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="image/sim.jpg" style="width:600px">
+              </div>
 
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="image/bird.jpg" style="width:600px">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="image/facilitator.jpg" style="width:600px">
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="image/CSESAC.jpg" style="width:600px">
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="image/pumpkin.jpg" style="width:600px">
+              </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+          <br>
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
       </div>
 
   </div>

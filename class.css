@@ -1,14 +1,76 @@
 body {
-  background-image: url("image/bg2.jpg");
-  background-size: cover;
-  ba
-  background-repeat: no-repeat;
+  background-image: url("image/edBG.jpg");
+  background-repeat: repeat;
   font-family:Helvetica, Arial, sans-serif;
 }
 
 a {
   text-decoration:none;
   color:3D2914;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 #searchtext span{
@@ -42,7 +104,7 @@ a {
 
 #container {
   background-color:FFFFFF;
-  opacity: 0.8;
+  opacity: 0.9;
   width:1100px;
   margin-left:auto;
   margin-right:auto;
@@ -59,14 +121,12 @@ a {
 }
 
 #header {
-  background-image: url("image/header.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #484747;
   font-family: fantasy;
   font-size: 30px;
   font-weight: 900;
   font-stretch: expanded;
-  color:white;
+  color: white;
   text-align:center;
   padding:25px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
@@ -160,9 +220,7 @@ h1,h2,h3 {
 }
 
 button {
-  background-image: url("image/header.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #484747;
   color: FFFFFF;
   font-size: 20px;
   font-variant: small-caps;
