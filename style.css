@@ -60,16 +60,23 @@ Main components
 .cd-section:nth-of-type(even) p {
   color: 	#22665c;
 }
-#resume {
-  margin-left: 80px;
-  padding-top: 30px;
-}
 #section0 {
   padding-top: 20%;
   padding-left: 30%;
   text-align: left;
   color: #22665c;
 }
+#resume {
+  margin-left: 15%;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  width: 60%;
+}
+#resume h2 {
+  font-size: 20px;
+  color: #22665c;
+}
+
 .cd-section h1, .cd-section p {
   position: relative;
   left: 50%;
