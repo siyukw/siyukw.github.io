@@ -66,6 +66,28 @@ Main components
   text-align: left;
   color: #22665c;
 }
+#section4 {
+  padding-top: 20%;
+  padding-left: 30%;
+  text-align: left;
+  color: #22665c;
+}
+#essay {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  text-align: left;
+  color: #22665c;
+  font-size: 18px;
+}
+#essay button {
+  color: #3ca392;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 10px 25px;
+}
 #resume {
   margin-left: 15%;
   padding-top: 40px;
